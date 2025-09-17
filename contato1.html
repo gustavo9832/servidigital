@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Nexus Soluções Digitais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Nexus Soluções Digitais</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="sobre1.html">Sobre</a> |
+    <a href="serviços.html">Serviços</a> |
+    <a href="contato1.html">Contato</a> |
+    <a href="login1.html">Login</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Fale Conosco</h2>
+  <form>
+    <label>Nome Completo: <input type="text" name="nome"></label><br>
+    <label>E-mail: <input type="email" name="email" required></label><br>
+    <label>Telefone: <input type="tel" name="telefone"></label><br>
+
+    <label>Serviço de Interesse:
+      <select name="servico">
+        <option>Desenvolvimento Web</option>
+        <option>Marketing Digital</option>
+        <option>Consultoria em TI</option>
+      </select>
+    </label><br>
+
+    <label>Prazo Desejado: <input type="date" name="prazo"></label><br>
+
+    <label>Deseja receber nosso informativo?</label><br>
+    <input type="radio" name="informativo" value="sim"> Sim
+    <input type="radio" name="informativo" value="nao"> Não <br>
+
+    <label>Mensagem:</label><br>
+    <textarea name="mensagem" rows="5" cols="40"></textarea><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Redefinir">
+  </form>
+</main>
+
+<hr>
+<footer>
+  <p>© 2025 Nexus Soluções Digitais</p>
+</footer>
+</body>
+</html>
